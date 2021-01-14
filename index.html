@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/BootstrapCSS/bootstrap.min.css">
-    <title>Document</title>
+    <title>ShoeHouse</title>
 </head>
 
 <body>
+    <!-- HEADER SECTION START -->
     <section class="upper-part">
         <header class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-none ">
@@ -25,34 +28,35 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </div>
                     </div>
                 </div>
             </nav>
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-sm-6 p-5">
+                    <div class="col-sm-6 p-5" id="display-1">
                         <img class="d-block w-100" src="images/Nike.png" alt="">
                     </div>
-                    <div class="col-sm-6 p-5">
-                        <h1>Nike React</h1>
-                        <h1>Infinity Run 2</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, vel?</p>
-                        <button class="btn btn-warning">Buy Now</button>
+                    <div class="col-sm-6 p-5" id="display-2">
+                        <h1>ShoeHouse</h1>
+                        <h1>Find your shoes!!</h1>
+                        <p>This is the best online shop for shoes in Bangladesh</p>
+                        <button class="btn btn-warning ">Buy Now</button>
                     </div>
                 </div>
             </div>
         </header>
-
-
     </section>
+    <!-- HEADER SECTION ENDS -->
+
+    <!-- CASUAL SHOES SECTION STRATS -->
     <section class="container mt-5">
         <h1>CASUAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-            <div class="col">
+            <div class="col single-shoe">
                 <div class="card h-80 border-0 bg-white shadow">
                     <div class="shoe-image bg-light rounded m-3">
                         <img src="images/casualshoes1.png" class="card-img-top " alt="...">
@@ -60,9 +64,9 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Nike Show</h5>
-                        <p class="card-text">This is a very beautiful shoe and very comfortable to wear.</p>
+                        <p class="card-text">This Sneakers is very good for sports person. Good for playing cricket.</p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$234</h1>
+                            <h2>$234</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -72,14 +76,13 @@
                 <div class="card h-80 border-0 shadow">
                     <div class="shoe-image bg-light rounded m-3">
                         <img src="images/casualshoes2.png" class="card-img-top w-100 p-5" alt="...">
-
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Sneakers Skate Shoe</h5>
                         <p class="card-text"> This Sneakers is very good for sports person. Good for playing football.
                         </p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$440</h1>
+                            <h2>$440</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -94,11 +97,11 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Sneakers Basketball Shoe</h5>
-                        <p class="card-text"> This Sneakers is very good for Basketball player. Good for playing
+                        <p class="card-text"> This shoe is good for Basketball player. Good for playing
                             Basketball.
                         </p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$345</h1>
+                            <h2>$345</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -108,6 +111,10 @@
 
         </div>
     </section>
+    <!-- CASUAL SHOE SECTION ENDS -->
+
+    <!-- FORMAL SHOE SECTION STARTS -->
+
     <section class="formal-shoe container mt-5">
         <h1>FORMAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
@@ -121,7 +128,7 @@
                         <h5 class="card-title">Nike Show</h5>
                         <p class="card-text">This is a very beautiful shoe and very comfortable to wear.</p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$234</h1>
+                            <h2>$234</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -135,10 +142,10 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Sneakers Skate Shoe</h5>
-                        <p class="card-text"> This Sneakers is very good for sports person. Good for playing football.
+                        <p class="card-text"> This is a very beautiful shoe and very comfortable to wear.
                         </p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$440</h1>
+                            <h2>$440</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -153,11 +160,10 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Sneakers Basketball Shoe</h5>
-                        <p class="card-text"> This Sneakers is very good for Basketball player. Good for playing
-                            Basketball.
+                        <p class="card-text"> This is a very beautiful shoe and very comfortable to wear.
                         </p>
                         <div class="price-info d-flex align-items-center">
-                            <h1>$345</h1>
+                            <h2>$345</h2>
                             <button class="btn btn-primary ms-auto">BUY NOW</button>
                         </div>
                     </div>
@@ -167,47 +173,68 @@
 
         </div>
 
-
     </section>
-    <section class="container overflow-hidden mt-5 categories introduction">
-        <div class="row g-5">
-            <div class="col-sm-5">
-                <div class="p-3 bg-white shadow rounded d-flex align-items-center justify-content-around">
 
-                    <img style="width: 100px;" src="images/intro-1.png" alt="">
+    <!-- FORMAL SHOE SECTION ENDS -->
+
+    <!-- SHOPPING INFORMATION SECTION STARTS -->
+    <section class="container overflow-hidden mt-5 shopping ">
+        <div class="row g-5 ">
+            <div class="col-sm-5 " id="shopping-details">
+                <div class="p-3 g-5 shadow rounded d-flex align-items-center justify-content-around information ">
                     <div>
-                        <h3>Find the Perfect Fit</h3>
+                        <img style="width: 80px;" src="images/intro-1.png" alt="">
+                    </div>
+                    <div class="single-information px-4">
+                        <h4>Find the Perfect Fit</h4>
                         <p>Everybody is different, which is why we offer styles for every body.</p>
                     </div>
 
                 </div>
-                <div class="p-3 bg-white shadow rounded d-flex align-items-center justify-content-around">
+                <div class="p-3 bg-white shadow rounded d-flex align-items-center justify-content-around mt-3">
 
-                    <img style="width: 100px;" src="images/intro-1.png" alt="">
-                    <div>
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                    <img style="width: 80px;" src="images/intro-2.png" alt="">
+                    <div class="single-information px-4">
+                        <h4>Free Exchanges</h4>
+                        <p>One of the many reasons you can shop with peace of mind</p>
                     </div>
-
                 </div>
+                <div class="p-3 bg-white shadow rounded d-flex align-items-center justify-content-around mt-3 mb-3">
 
-
-                <div class="p-3 bg-white shadow rounded d-flex align-items-center justify-content-around">
-
-                    <img style="width: 100px;" src="images/intro-1.png" alt="">
-                    <div>
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                    <img style="width: 80px;" src="images/intro-3.png" alt="">
+                    <div class="single-information px-4">
+                        <h4>Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite literally what we pay them for.</p>
                     </div>
-
                 </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-7 " id="shopping-image">
                 <img src="images/shopping.png" class="w-100" alt="">
 
             </div>
         </div>
     </section>
+
+    <!-- EMAIL SECTION STARTS -->
+
+    <section style="height: 300px;" class="contact d-flex justify-content-center align-items-center mt-5 container">
+        <div>
+            <h1>Contact us via email</h1>
+            <H6>Get update on the offers</H6>
+            <input type="text" placeholder="Enter you email address">
+            <Button class="btn btn-warning text-white">Submit</Button>
+        </div>
+    </section>
+
+    <!-- EMAIL SECTION ENDS -->
+
+    <!-- FOOTER SECTION STARTS -->
+
+    <footer class="text-center mt-5">
+        <p>&copy; all rights reserved by <a href="">Kaiser Samrat</a> </p>
+    </footer>
+
+    <!-- FOOTER SECTION ENDS -->
 
     <script src="js/bootstrap.min.js"></script>
 </body>
