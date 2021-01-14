@@ -16,9 +16,7 @@ p{
 .upper-part{
     background-color: #fceae8;
 }
-.shoe-card{
-    border: none;
-}
+
 .card-footer
 {
     border: 0;
@@ -40,6 +38,10 @@ p{
 .single-shoe{
     border: 1.5em;
 }
+.contact{
+    height: 300px;
+}
+
 @media only screen and (max-width: 576px){
     #display-1{
         order: 2;
@@ -53,6 +55,10 @@ p{
     #shopping-details{
         order: 2;
     }
+    .shopping-photo img{
+        display: block;
+    }
+    
 
 }
 
